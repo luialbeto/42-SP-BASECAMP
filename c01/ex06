@@ -1,0 +1,9 @@
+int ft_strlen(char *str)
+{
+    int vet;
+    
+    vet = 0;
+    while (str[vet] != '\0')
+    vet++;
+    return (vet);
+}
